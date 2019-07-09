@@ -25,8 +25,9 @@ SECRET_KEY = '=!1q7wtb+m=(#2xc960szg8&mebgzw_^ugby%e2h!v#fp&y9vf'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['159.65.228.254']
-
+# Only uncomment on production
+# ALLOWED_HOSTS = ['159.65.228.254']
+ALLOWED_HOSTS = []
 
 # Application definition
 
@@ -87,7 +88,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
         'NAME': 'proximo',
-        'USER': 'proximodb',
+        'USER': 'proximo',
         'PASSWORD': 'proximo',
         'HOST': 'localhost',
         'PORT': '5432',
