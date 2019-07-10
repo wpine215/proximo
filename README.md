@@ -35,6 +35,8 @@ Set up PostgreSQL and PostGIS extension:
     postgres=# \c proximo
     proximo=# CREATE EXTENSION postgis;
     proximo=# \q
+    $ sudo systemctl enable postgresql
+    $ sudo systemctl start postgresql
     
 Be sure to modify /backend/settings.py to reflect database credentials, host, and port.
 
