@@ -21,7 +21,7 @@ Clone the repository, initialize and activate venv (virtualenv might need to be 
     $ git clone https://github.com/wpine215/proximo.git
     $ cd proximo
     $ virtualenv -p python3 env
-    (venv)$ source env/bin/activate
+    $ source env/bin/activate
     (venv)$ pip3 install -r requirements.txt
     (venv)$ deactivate
 
