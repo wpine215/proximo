@@ -2,6 +2,7 @@ Babel==2.7.0
 Django==2.2.3
 django-phonenumber-field==3.0.1
 phonenumbers==8.10.14
+djangorestframework==3.9.4
 postgres==2.2.2
 psycopg2-binary==2.8.3
 pytz==2019.1
