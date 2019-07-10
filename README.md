@@ -5,7 +5,7 @@ Location-based social network
 Update all packages and install basic utilities:
 
     $ sudo apt-get update -qq
-    $ sudo apt-get install -y -qq unzip wget git`
+    $ sudo apt-get install -y -qq unzip wget git
 
 Install Python and PostgreSQL:
 
@@ -21,8 +21,9 @@ Clone the repository, initialize and activate venv (virtualenv might need to be 
     $ git clone https://github.com/wpine215/proximo.git
     $ cd proximo
     $ virtualenv -p python3 env
-    $ source env/bin/activate
-    $ pip3 install -r requirements.txt
+    (venv)$ source env/bin/activate
+    (venv)$ pip3 install -r requirements.txt
+    (venv)$ deactivate
 
 Set up PostgreSQL and PostGIS extension:
 
