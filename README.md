@@ -1,5 +1,5 @@
 # proximo
-Location-based social network
+A location-based social network that allows users to post 140-char messages anonymously.
 
 ## Installation (Debian/Ubuntu)
 Update all packages and install basic utilities:
@@ -37,4 +37,5 @@ Set up PostgreSQL and PostGIS extension:
     proximo=# \q
     
 Be sure to modify /backend/settings.py to reflect database credentials, host, and port.
+
 Make sure localhost IP address (not 127.0.0.1) is added to ALLOWED_HOSTS in settings.py for deployment.
